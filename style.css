@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    height: 100vh;
+    
+}
+.container{
+    background-color: bisque;
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+
+  
+}
+
+
+ul li{
+    list-style: none;
+    line-height: 35px;
+    border: 2px solid gray;
+    width: 80%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+   
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    height: 35px;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 10px;
+}
+.fa-add, .fa-search{
+    background-color: blue;
+    color: white;
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 8px;
+    
+}
+
+.fa-trash{
+background-color: red;
+color: white;
+padding: 10px 10px;
+border: 0;
+border-radius: 8px;
+position: absolute;
+left: 81%;
+
+
+
+
+}
+
+.todolist{
+    position: relative;
+}
+
